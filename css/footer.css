@@ -1,0 +1,35 @@
+.footer {
+	border-top: 1px solid rgba(238, 238, 238, 0.1);
+}
+.footer__container {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.footer-menu {
+	margin-bottom: 25px;
+}
+.footer-menu__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 45px;
+	row-gap: 20px;
+}
+.footer-menu__link {
+	color: #EEEEEE;
+	transition: color 0.3s ease 0s;
+	padding-left: 34px;
+}
+.footer-menu__link:hover {
+	color: #00ADB5;
+}
+.footer-menu__link_home {
+	background: url('../img/icons/home.svg') left no-repeat;
+}
+.footer-menu__link_about {
+	background: url('../img/icons/user.svg') left no-repeat;
+}
+.footer-menu__link_contact {
+	background: url('../img/icons/phone.svg') 0 0 no-repeat;
+}
